@@ -62,7 +62,7 @@ public:
 
 	~PlayerController();
 
-	bool LoadPlayer(const io::path modelPath, const vector3df& spawnPosition);
+	bool LoadPlayer(const io::path& modelPath, const vector3df& spawnPosition);
 
 	void SetCamera(ICameraSceneNode* cam);
 
