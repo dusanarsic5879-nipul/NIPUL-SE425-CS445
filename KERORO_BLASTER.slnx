@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="KERORO_BLASTER/KERORO_BLASTER.vcxproj" Id="9bbc5d65-2c9b-49b3-8c72-6497c96ae67a" />
+</Solution>
