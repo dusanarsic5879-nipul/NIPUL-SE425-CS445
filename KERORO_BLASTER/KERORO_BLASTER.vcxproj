@@ -111,12 +111,12 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>E:\CS445\KERORO_BLASTER\KERORO_BLASTER\irrlicht-1.8.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\CS445\KERORO_BLASTER\KERORO_BLASTER\irrlicht-1.8.5\include;E:\CS445\KERORO_BLASTER\KERORO_BLASTER\irrlicht-1.8.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>E:\CS445\KERORO_BLASTER\KERORO_BLASTER\irrlicht-1.8.5\lib\Win64-visualStudio;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>F:\CS445\KERORO_BLASTER\KERORO_BLASTER\irrlicht-1.8.5\lib\Win64-visualStudio;E:\CS445\KERORO_BLASTER\KERORO_BLASTER\irrlicht-1.8.5\lib\Win64-visualStudio;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>Irrlicht.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Manifest>

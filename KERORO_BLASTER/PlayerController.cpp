@@ -55,6 +55,33 @@ PlayerController::~PlayerController()
 //load keroro model 
 bool PlayerController::LoadPlayer(const io::path& modelPath, const vector3df& spawnPosition) 
 {
+	IAnimatedMesh* mesh = smgr->getMesh(modelPath);
+	if (!mesh) 
+	{
+		return false;
+	}
+
+	player = smgr->addAnimatedMeshSceneNode(mesh);
+	if (!player) 
+	{
+		return false;
+	}
+
+	//keropoint in cc  
+	player->setPosition(spawnPosition);
+
+	player->setScale(vector3df(1, 1, 1));
+
+	player->setAnimationSpeed(24);
+	player->setFrameLoop(1, 24);
+	player->setLoopMode(true);
+	player->setMaterialFlag(EMF_LIGHTING, false);
 
 	return true;
+}
+
+//camera 
+void PlayerController::SetCamera(ICameraSceneNode* cam) 
+{
+	camera = cam;
 }
